@@ -1,0 +1,19 @@
+fun main() {
+    calculator()
+}
+fun calculator() {
+    val firstNumber = 3
+    val secondNumber = 4
+    println("please enter an operator:+ - * / %")
+    val operator = readLine()
+    when (operator) {
+        "+" -> println("The result is $firstNumber + $secondNumber = ${firstNumber + secondNumber}")
+        "-" -> println("The result is $firstNumber - $secondNumber = ${firstNumber - secondNumber}")
+        "*" -> println("The result is $firstNumber * $secondNumber ${firstNumber * secondNumber}")
+        "/" -> println("The result is $firstNumber / $secondNumber ${firstNumber / secondNumber}")
+        else -> println("Unknown operator")
+
+
+    }
+
+}
